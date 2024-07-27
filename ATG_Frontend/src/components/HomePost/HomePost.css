@@ -1,0 +1,264 @@
+.HomePost {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 1em;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.HomePost-category {
+  position: absolute;
+  right: 45px;
+  top: 15px;
+  padding: 3px 8px;
+  background: var(--light-grey);
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.HomePost-name-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HomePost-name-img-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.HomePost-name-img-container img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid var(--light-grey);
+}
+
+.HomePost-creation-time {
+  font-size: 12px;
+  line-height: 1em;
+  color: var(--dark-grey);
+  font-weight: 500;
+}
+
+.HomePost-creator-name {
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.three-dots-option {
+  padding: 2px;
+  background-color: var(--dark-grey);
+  margin: 2px;
+  border-radius: 50%;
+}
+
+.three-dots-option-container {
+  padding: 3px 8px;
+}
+
+.three-dots-option-container:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.HomePost-text {
+  color: #474747;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: 8px 3px 3px 3px;
+}
+
+.HomePost-img {
+  width: 100%;
+  border-radius: 4px;
+  max-height: 500px;
+  image-rendering: pixelated;
+  object-fit: cover;
+}
+
+.HomePost-like-comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.HomePost-icons {
+  display: flex;
+  gap: 1em;
+}
+
+.HomePost-icon {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.HomePost-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.HomePost-icon-container span {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.HomePost-write-comment {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 50%;
+}
+
+.HomePost-comment-inp {
+  position: relative;
+  width: 80%;
+  background-color: var(--light-grey);
+  padding: 5px 12px;
+  border-radius: 16px;
+}
+
+.HomePost-comment-inp input {
+  border: none;
+  background-color: var(--light-grey);
+  outline: none;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  width: 75%;
+}
+
+.HomePost-comment-inp-icon {
+  font-size: 1em;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  cursor: pointer;
+}
+
+.HomePost-comment-img-upload {
+  position: absolute;
+  right: 35px;
+  top: 8px;
+  z-index: 2;
+}
+
+.HomePost-comment-btn {
+  border-radius: 6px;
+  background-color: var(--light-blue);
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+.HomePost-comment-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.HomePost-top-comment {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.HomePost-top-comment-profilephoto {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /* image-rendering: pixelated; */
+  border: 1px solid var(--light-grey);
+}
+
+.HomePost-top-comment-container {
+  background-color: var(--light-grey);
+  border-radius: 6px;
+  padding: 4px 8px;
+  display: flex;
+  flex-direction: column;
+  min-width: 170px;
+  max-width: 70%;
+}
+
+.HomePost-top-comment-name {
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14.5px;
+  color: #363636;
+}
+
+.HomePost-top-comment-time {
+  align-self: end;
+  font-size: 12px;
+  color: var(--dark-grey);
+  font-weight: 500;
+}
+
+.HomePost-top-comment-img {
+  width: 150px;
+  height: 70px;
+  border-radius: 6px;
+  margin: 5px 0;
+  object-fit: cover;
+  image-rendering: pixelated;
+}
+
+.HomePost-top-comment-text {
+  font-weight: 500;
+  margin-left: 4px;
+  font-size: 15px;
+}
+
+.HomePost-see-all-comments {
+  color: var(--dark-grey);
+  font-size: 14px;
+  width: fit-content;
+  margin: 4px auto 0 auto;
+}
+
+.HomePost-see-all-comments:hover {
+  text-decoration: underline;
+}
+
+.HomePost-show-options {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: var(--light-grey);
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  width: 28%;
+  z-index: 3;
+}
+
+.HomePost-show-options div {
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.HomePost-show-options div:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.HomePost-emoji-input-container {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  right: -357px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px var(--dark-grey);
+}
