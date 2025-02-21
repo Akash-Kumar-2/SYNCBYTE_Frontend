@@ -41,4 +41,4 @@ You may also see any lint errors in the console.
 ![Screenshot (7)](https://github.com/user-attachments/assets/b9788421-be93-46f4-881b-ddc303649bb0)
 
 ![Screenshot (8)](https://github.com/user-attachments/assets/a271001d-339e-4589-946c-36b62d434371)
-"# ATG_Frontend" 
+"# SYNCBYTE_Frontend" 
