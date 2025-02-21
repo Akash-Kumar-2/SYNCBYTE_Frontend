@@ -1,9 +1,19 @@
-## Across The Globe
-ATG is a professional social media site. Here you can create your regular post, job & internship related post and can delete tehm also. Users can like, comment(with image & emoji) & can share the post. You can copy the post url and can also download image of the post(It it contain). You can easily add and remove a post from your favorites and saved section. All Friends and All Friend Request Section is also present.
+## SYNCBYTE
+  
+  -Syncbyte is a community-driven platform designed to enhance collaboration, knowledge sharing, and academic engagement among students at JSS Academy of Technical Education, Noida (JSSATEN). It serves as a 
+   central hub where students can participate in discussions, share study materials, stay updated on events, and connect with peers efficiently.
 
-You can send, accept and reject friend requets. also a notification is automatically added to the affected user's section whenever anyone send request, likes or comments his post or his friend added a post. It contain full authentication and authorization with login and signup page. Email verifiaction via mail on given email and incase you forget password reset password link is send to the registered email.
+      - **Key Features**
 
-You can also edit user details and password after login.
+          - Community Forums – Engage in discussions, ask questions, and collaborate on projects.
+          - Resource Sharing – Upload and access study materials, notes, and project documents.
+          - Event Announcements – Stay informed about college events, workshops, and hackathons.
+          - Real-time Notifications – Get alerts when someone interacts with your posts or sends a friend request.
+          - Friend Requests & Connections – Send, accept, and reject friend requests with instant notifications.
+          - Post Interactions – Like, comment (with images & emojis), share, and save posts.
+          - Authentication & Authorization – Secure login/signup with email verification and password recovery.
+          - User Profile Management – Update user details, change passwords, and manage saved posts.
+
 
 ### `npm install`
 To install all the dependencies and modules needed to run the project.
